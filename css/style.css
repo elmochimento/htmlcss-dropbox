@@ -16,6 +16,7 @@ img {
 
 a {
     text-transform: none;
+    color: black;
 }
 
 ul {
@@ -41,3 +42,34 @@ ul {
 }
 
 
+header{
+    height: 80px;
+    background-color: #ffffff;
+    border-bottom: 3px dashed red;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex; /* Attiva Flexbox */
+    justify-content: space-between; /* Posiziona i due div agli estremi */
+    align-items: center; /* Allinea verticalmente */
+    padding: 10px 20px;
+    background-color: #f8f8f8; /* Colore di sfondo opzionale */
+
+}
+
+.header-left{
+    gap: 20px;
+}
+
+.header-right{
+    gap: 20px;
+}
+
+.logo-dropbox{
+    padding-right: 15px;
+}
+
+button, .start{
+    background-color: #0061fe;
+    width: 60px;
+    color: white;
+}
