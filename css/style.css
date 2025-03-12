@@ -56,6 +56,9 @@ header{
 
 }
 
+
+/* HERO  */
+
 .header-left{
     gap: 20px;
 }
@@ -116,3 +119,25 @@ button, .start{
 .cancel-any-time{
     margin-top: 20px;
 }
+
+
+/* MAIN WEBSITE  */
+
+.main-dropbox{
+    height: 2000px;
+    background-color: white;
+    border: 2px dashed red;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.primary-section-main{
+    margin-top: 20px;
+}
+
+.select-plane{
+    margin-top: 30px;
+}
+
