@@ -45,7 +45,7 @@ ul {
 header{
     height: 80px;
     background-color: #ffffff;
-    border-bottom: 3px dashed red;
+    border-bottom: 3px dashed rgb(27, 126, 156);
     padding-left: 10px;
     padding-right: 10px;
     display: flex; /* Attiva Flexbox */
@@ -62,6 +62,7 @@ header{
 
 .header-right{
     gap: 20px;
+
 }
 
 .logo-dropbox{
@@ -72,4 +73,46 @@ button, .start{
     background-color: #0061fe;
     width: 60px;
     color: white;
+    margin-left: 15px;
+}
+
+.hero {
+    height: 450px;
+    background-color: #b4d0e6;
+}
+
+.title-hero{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.hero-description{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.lorem-hero{
+    /* text-align: center; */
+    padding-top: 50px;
+}
+
+.test-free{
+    background-color: #0061fe;
+    width: 200px;
+    height: 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+
+.image-hero-client{
+    /* height: 500px; */
+    width: 500px;
+}
+
+
+.cancel-any-time{
+    margin-top: 20px;
 }
