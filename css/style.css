@@ -67,6 +67,10 @@ header{
 
 }
 
+a{
+    color: blue;
+}
+
 
 /* HERO  */
 
@@ -390,4 +394,12 @@ p a:hover {
     color: #555;
 }
 
+
+.section-more-client{
+    text-align: left;
+}
+
+.more-client{
+    margin-top: 50px;
+}
 
