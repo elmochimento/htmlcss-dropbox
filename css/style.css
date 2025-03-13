@@ -281,3 +281,51 @@ p a:hover {
 .contact-button:hover {
     background-color: #0040c1;
 }
+
+/* sezione contact partner */
+
+.section-contact-partner-dropbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px; /* Spazio tra immagine e testo */
+    padding: 40px;
+}
+
+.image-partner {
+    width: 50%; /* Occupa metà spazio */
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+.enter-on-contact {
+    width: 40%; /* Occupa una parte minore per evitare testo troppo largo */
+}
+
+.enter-on-contact h4 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.enter-on-contact p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.button-contact-partner-dropbox {
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+}
+
+.button-contact-partner-dropbox:hover {
+    background-color: #f0f0f0; }
