@@ -160,7 +160,19 @@ button, .start{
 
 .select-plane{
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 20px
+    ;
 }
+
+
+.title-search-plane{
+    display: flex;
+    justify-content: center;
+}
+
 
 
 /* plane  */
@@ -259,14 +271,17 @@ p a:hover {
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    position: relative;
+    /* position: relative; */
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .card-content {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
+
 }
 .text-content {
     max-width: 70%;
