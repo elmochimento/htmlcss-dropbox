@@ -395,11 +395,12 @@ p a:hover {
 }
 
 
-.section-more-client{
+.section-more-client {
     text-align: left;
+    margin-top: 100px;
 }
 
-.more-client{
-    margin-top: 50px;
+.more-client {
+    display: block;
+    margin-top: 30px; /* Sposta il link più in basso */
 }
-
