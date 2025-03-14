@@ -31,6 +31,12 @@ li {
     padding-top: 10px;
 }
 
+
+hr{
+    color: white;
+}
+
+
 /* Utils */
 
 /* .debug {
@@ -139,7 +145,7 @@ button, .start{
 /* MAIN WEBSITE  */
 
 .main-dropbox{
-    height: 2000px;
+    /* height: 2000px; */
     background-color: white;
     /* border: 2px dashed red; */
     margin-top: 50px;
@@ -410,5 +416,40 @@ p a:hover {
 
 footer{
     background-color: #000;
-    height: 100px;
+    color: white;
+    
+    
 }
+
+.footer-select{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.titolo-lista {
+    margin-bottom: 20px;  /*Distanza tra titolo e lista */
+}
+
+.lista-verticale {
+    /* list-style-type: none; */
+    padding: 0;
+}
+
+.lista-verticale li {
+    margin-bottom: 10px;
+}
+
+
+.line-footer-one{
+    margin-top: 100px;
+}
+
+
+.indentification-country-footer{
+ 
+    margin-top: 50px;
+}
+
